@@ -28,8 +28,10 @@ public class CityscapeComponent extends JComponent
         
         // create instances of classes and invoke the draw method on each
         // ...
-        
-        
+        Field soccerField = new Field(10,20);
+        //Goals goals1 = new Goals(10,60);
+        soccerField.draw(g2);
+        //goals1.draw(g2);
     }
 
 }
